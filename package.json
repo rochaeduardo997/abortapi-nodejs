@@ -1,0 +1,12 @@
+{
+  "name": "abortapi-erick-wendel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "server": "node server.js",
+    "promise-race": "node --experimental-fetch 01-promise-race.js",
+    "abort-signal": "node --experimental-fetch 02-abort-signal.js"
+  }
+}
